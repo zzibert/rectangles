@@ -16,6 +16,9 @@ impl Rectangle {
             return false
         }   
     }
+    fn square(size: u32) -> Rectangle {
+        Rectangle {width: size, height: size}
+    }
 }
 
 fn main() {
